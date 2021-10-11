@@ -1,1 +1,3 @@
-# Arduino
+This repository is for some of my Arduino projects and tests.
+
+Most recent project here is [P.LB.2](https://github.com/tbtaco/Arduino/blob/main/P.LB.2.ino).  This project ran on an ATMEGA328P and had Bluetooth and FRAM peripherals.  You could connect to it with a phone for example, and read/write to the FRAM.  Development on this was cut short, but the idea was to eventually add options to store several different phrases (like seeds) and have it encrypted in memory.  A password would be needed to decrypt.  Ran into timing issues with the chosen hardware.  Adding external timing like I've done with later projects would fix this.
